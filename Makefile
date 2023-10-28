@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wdeprecated-declarations -Wall 
-SOURCES = hello.c 
+SOURCES = main.c 
 TARGET = main
 LDFLAGS = -framework OpenGL -framework GLUT
 all: $(TARGET)
